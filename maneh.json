@@ -1,0 +1,60 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["hai kak", "halo kak", "pagi kak", "siang kak", "sore kak", "malam kak", "selamat pagi", "selamat siang", "selamat sore", "selamat malam", "permisi", "hi","hay","pagi kak beli","siang kak beli","sore kak beli","malam kak beli","halo sis beli","permisi kak","kak pesan","kak hai","kak halo","kak pagi","kak siang","kak sore","kak malam","sis",""],
+     "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Silakan, mau pesan apa?"]
+    },
+    {"tag": "jenis",
+     "patterns": ["kegunaan varian kopi", "kegunaan varian lemon", "kegunaan varian greentea", "kegunaan varian kopi kak","kegunaan varian lemon kak","kegunaan varian greentea kak","kegunaan kopi","kegunaan lemon","kegunaan greentea","kegunaan kopi kak","kegunaan lemon kak","kegunaan greenteakak","kak kegunaan varian kopi","kak kegunaan varian lemon","kak kegunaan varian greentea","kak kegunaan kopi","kak kegunaan lemon","kak kegunaan greentea"],
+     "responses": ["Varian kopi dapat menghilangkan bekas jerawat,  Lemon dapat meredakan jerawat, dan Greentea bikin kinclong kak"]
+    },
+    {"tag": "pengiriman",
+     "patterns": ["dikirim","pengiriman","dikirim kak","dikirim gosend","dikirim gosend kak","dikirim grab","dikirim grab kak","kak dikirim","kak dikirim gosend","kak dikirim grab","kirim","kirim kak","kirim gosend","kirim grab","kirim grab","kak kirim","kak kirim gosend", "kak kirim grab","kak barang dikirim", "kirim langsung"],
+     "responses": ["Untuk pengiriman dapat dilakukan hari ini maksimal pemesanan sudah dibayarkan sebelum jam 2 ya"]
+    },
+    {"tag": "keaslian",
+     "patterns": ["Ini barang original", "Ini asli", "Ori ga nih", "barnag asli"],
+     "responses": ["Ini barang asli terjamin ada sertifikasinya kak", "Original ini kak", "Asli kak"]
+    },
+    {"tag": "pemakaian",
+     "patterns": ["dipakainya kak","dipakai kak","dipakainya","dipakai","seminggu dipakai kali","kak dipakainya","kak dipakai","seminggu dipakai kali kak","kak seminggu dipakai kali"],
+     "responses": ["Pemakaiannya seminggu sekali yaa untuk hasil yang optimal :)))))))"]
+    },
+    {"tag": "harga",
+     "patterns": ["harganya kak","harganya","harga","pricelist kak","kak pricelist","pricelist","tau harganya nggak kak","tau harganya gak kak","tau harganya","tau harganya nggak","tau harganya kak","pricelistnya","pricelistnya kak","kak harganya","kak harga","kak tau harganya nggak","kak tau harganya gak","kak pricelistnya"],
+     "responses": ["untuk harganya perbungkus 20.000 ya", "Perbungkus 20.000 ya cin", "20k kak per sheetnya all variant"]
+    },
+    {"tag": "alamat",
+     "patterns": ["alamatnya dimana ya","alamatnya dimana kak","alamatnya dimana","kak alamatnya dimana ya","kak alamatnya dimana","kak alamat dimana","alamat","alamat dimana ya","alamat dimana kak","tempatnya dimana","tempatnya dimana kak","tempatnya dimana ya","kak tempatnya dimana ya","kak tempatnya dimana","kak tempat dimana","tempat","toko offlinenya dimana ya","toko offlinenya dimana","toko offlinenya dimana kak","toko offline","kak toko offlinenya","diambil langsung kak","diambil langsung"],
+     "responses": ["Sementara kami tidak melayani pemesanan offline ya, hanya secara online saja"]
+    },
+    {"tag": "ukuran",
+     "patterns": ["ukurannya berapa kak","ukuran berapa","ukurannya berapa","ukurannya","ukurannya kak","besarnya kak","besarnya","kak ukurannya berapa","kak ukurannya","kak ukuran","kak besarnya berapa","kak besar"],
+     "responses": ["Satu wajah ukuran normal yaa, 1 kemasan berisi satu slice"]
+    },
+    {"tag": "ready gan",
+     "patterns": ["halo kek barangnya ready","barang ready","barangnya ready","hai kak barangnya ready"],
+     "responses": ["Ready kak, mau varian apa? Lemon/Kopi/Greentea"]
+    },
+    {"tag": "stok gan",
+     "patterns": ["halo kak stoknya aja","stoknya aja","stok","sisa kak","sisa"],
+     "responses": ["Mau Variant apa? Lemon/Kopi/Greentea"]
+    },
+    {"tag": "lemonilo",
+     "patterns": ["varian lemon","lemon","kak lemon","lemon kak","varian lemon kak"],
+     "responses": ["Untuk varian lemon, sisa 4 yaa kak ukuran reguler"]
+    },
+    {"tag": "kopino",
+     "patterns": ["varian kopi","kak kopi","kopi","kopi kak","varian kopi kak"],
+     "responses": ["Untuk varian kopi, sisa 2 yaa kak ukuran reguler"]
+    },
+    {"tag": "greenteak",
+     "patterns": ["kak greentea","varian greentea","greentea","greentea kak","varian greentea kak"],
+     "responses": ["Untuk varian greentea, sisa 3 yaa kak ukuran reguler"]
+    },
+    {"tag": "bye",
+     "patterns": ["done", "Dadah", "oaoaoa", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    }
+]
+}
+
